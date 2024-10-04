@@ -5,20 +5,13 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 
-import java.time.Duration;
-import java.util.List;
-
-public class Registration2
+public class Registration3
 {
     public static void main(String[] args) {
-        //1. Open The Browser in maximize mode
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        //1. Open The Browser in maximize mode and Enter the url
+        WebDriver driver = Utilities.launchBrowser(ApplicationData.BROWSER_NAME);
         CommonActions ca = new CommonActions(driver);
-        //2. Enter the url
-        driver.get("https://janbaskdemo.com/");
 
         //3. Click on My Account Icon
         ca.doClickXpath("//i[@class='fa fa-user']");

@@ -1,4 +1,4 @@
-package JanbaskApp;
+package JanBaskAutomation;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

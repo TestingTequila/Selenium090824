@@ -1,0 +1,17 @@
+TestNg: 3A's
+TestNg is all about : Annotations, Attributes and Assertions
+
+1. Annotations: pre and post conditions and to identify the test case
+   They are used along with methods
+   @BeforeSuite
+   @BeforeTest   : This will be executed only once for all the test cases beforeClass
+   @BeforeClass  : This will be executed only once for all the test cases beforeMethod
+   @BeforeMethod : This will be executed before every Test case [@Test]
+   @Test         : To identify or mark the test case
+   @AfterMethod  : This will be executed after every Test case [@Test]
+   @AfterClass   : This will be executed only once for all the test cases after
+   @AfterTest    : This will be executed only once for all the test cases afterClass
+   @AfterSuite
+   ----------------------------------
+   @Parameters
+   @dataProvider

@@ -1,6 +1,4 @@
-package JanbaskApp;
-
-import org.openqa.selenium.devtools.v127.audits.model.StyleSheetLoadingIssueReason;
+package JanBaskAutomation;
 
 public interface ApplicationData
 {

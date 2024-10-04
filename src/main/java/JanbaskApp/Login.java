@@ -12,7 +12,7 @@ public class Login
     public static void main(String[] args) throws InterruptedException {
         //To verify Login functionality when correct email and correct password in entered
         // 1. Open the browser
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver();//Chrome Browser
         driver.manage().window().maximize();
 
         // 2. Enter the url

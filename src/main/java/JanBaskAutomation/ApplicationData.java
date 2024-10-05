@@ -11,9 +11,11 @@ public interface ApplicationData
     String COUNTRY_TO_SELECT = "Canada";
     String PASSWORD= "test@12345";
     String LOGIN_EMAIL_ID= "ben.fletcher@janbask.com";
+    String LOGIN_INVALID_EMAIL_ID= "ben.fletcher420@janbask.com";
+    String LOGIN_NO_EMAIL_ID= "";
     String LOGIN_PASSWORD = "test@1234";
     String SUBSCRIPTION_TO_SELECT = "Occasional Updates";
 
-    String BROWSER_NAME="Firefox";
+    String BROWSER_NAME="Chrome";
     String MY_ACCOUNT_PAGE_TITLE = "My Account";
 }

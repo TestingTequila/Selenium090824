@@ -1,7 +1,7 @@
 TestNg: 3A's
-TestNg is all about : Annotations, Attributes and Assertions
+TestNg is all about : Annotations[99%], Attributes[100%] and Assertions
 
-1. Annotations: pre and post conditions and to identify the test case
+1. Annotations: pre and post conditions and to identify the test case and to mostly decide execution order of test cases
    They are used along with methods
    @BeforeSuite
    @BeforeTest   : This will be executed only once for all the test cases beforeClass
@@ -13,5 +13,19 @@ TestNg is all about : Annotations, Attributes and Assertions
    @AfterTest    : This will be executed only once for all the test cases afterClass
    @AfterSuite
    ----------------------------------
-   @Parameters
+   @Parameters: used to implement parametrization in test cases means to execute same test case with different test data
    @dataProvider
+
+   ===================================================================
+   Attributes: They provide more flexibility to our already automated test cases
+             : We can use attributes along with Annotations only
+
+             priority
+             enabled
+             dependsUponMethods
+             groups
+             dependsOnGroups
+             alwaysRun
+             invocationCount
+             threadPoolSize
+             timeOut

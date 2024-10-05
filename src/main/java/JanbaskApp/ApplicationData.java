@@ -16,6 +16,6 @@ public interface ApplicationData
     String LOGIN_PASSWORD = "test@1234";
     String SUBSCRIPTION_TO_SELECT = "Occasional Updates";
 
-    String BROWSER_NAME="Firefox";
+    String BROWSER_NAME="Chrome";
     String MY_ACCOUNT_PAGE_TITLE = "My Account";
 }

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import javax.swing.plaf.basic.BasicComboBoxUI;
+import java.time.Duration;
 
 public class YourStore
 {
@@ -19,6 +20,7 @@ public class YourStore
     public void clickOnMyAccountIcon()
     {
         ca.doClickXpath("//i[@class='fa fa-user']");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
     }
 
     public  AccountLogin clickOnLoginLink()
